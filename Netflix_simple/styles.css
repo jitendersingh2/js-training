@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    background-color: black;
+}
+.header {
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+}
+.header img{
+    height:60px;
+    float:left;
+    margin-left:10px;
+    margin-top:0px;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.header a{
+    font-size: 50px;
+    text-decoration: none;  
+    color: red;
+    word-spacing: 3px;
+    text-shadow: 6px 2px black;
+    font-family: "Comic Sans MS", cursive, "sans-serif";
+  
+}
+
+.container {
+   
+    margin: 100px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+  
+   
+}
+
+.container >div {
+    color:white;
+    /* flex-direction: column; */
+    /* flex-basis: 25%; */
+    /* width: 25%; */
+    padding: 0 10px;
+}
+.container >div >p{
+    /* width: max-content; */
+    /* color: white; */
+    width: 150px;
+}
+
+
+@media (max-width: 500px) {
+    .container {
+        /* flex: 100%; */
+        /* max-width: 100%; */
+        flex-direction: column; 
+    }
+   
+}
+
+@media (min-width: 500px) and (max-width: 760px) {
+    .container {
+        /* flex-direction: column;  */
+        display: flex;
+        max-width: 50%;
+        flex-wrap: wrap;
+        padding: 0 10px;
+  
+         
+        /*flex-grow: 1 0 50%;  */
+   
+         /* display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px; */
+        
+    }
+
+    .container >div {
+        color:white;
+        /* flex-direction: column; */
+        /* flex-basis: 25%; */
+        /* width: 25%; */
+        padding: 0 10px;
+        width: calc(1/2 * 100%)
+    }
+
+    .container >div >img{
+        width: calc(1/2 * 100%)
+    }
+}
+
+.footer-divider {
+    width: 100%;
+    height: 0px;
+    border-top: 6px solid grey;
+    margin-top: 200px;
+}
+
+
+/* Footer */
+.footer a{
+    color: #a6a6a6;
+    text-decoration: none;  
+    font-size:20px;
+}
+.footer .item1 {
+     display:inline-block; 
+     margin-left:70px;
+     margin-top: 30px;
+     margin-bottom: 30px;
+}
+.footer .item2 {
+    margin-left:70px;
+    margin-bottom: 10px;
+}
+.item2 #faq {
+    margin-right: 100px;
+}
+.item2 #terms {
+    margin-left: 170px;
+}
+.footer .item3 {
+    margin-left:70px;
+    margin-bottom: 10px;
+}
+.item3 #contact {
+    margin-right: 100px;
+}
+.item3 #jobs {
+    margin-left: 120px;
+}
+.footer .item4 {
+    margin-left:70px;
+    margin-bottom: 70px;
+}
+.item4 #notice {
+    margin-right: 100px;
+}
+.item4 #privacy {
+    margin-left: 100px;
+}
+
