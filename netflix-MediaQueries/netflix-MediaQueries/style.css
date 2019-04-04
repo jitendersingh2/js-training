@@ -1,0 +1,187 @@
+.header{
+    background-color: black;
+    width:100%;
+    height:100px;
+   
+}
+.logo{
+  
+    height: 100px;
+    float: left;
+   
+}
+.list1{
+   padding-top: 40px;  
+    word-spacing: 50px;
+
+}
+.list1 a{
+    padding-left: 150px;
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+}
+.container{
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    margin-top:40px;
+    margin-left: 50px;
+    justify-items: auto;
+    justify-content: space-around;
+}
+.container p{
+    padding-right: 130px;
+}
+@media screen and (max-width:500px)
+{
+    .container{
+        grid-template-rows:1fr ;
+    grid-template-columns: 1fr ;
+    }
+    .list1{
+        padding-top: 40px;  
+         word-spacing: 20px;
+     
+     }
+     .list1 a{
+         padding-left: 10px;
+         color:whitesmoke;
+         text-decoration: none;
+         font-size: 14px;
+     }
+}
+@media screen and (min-width:500px)
+{
+    .container{
+        grid-template-rows:1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    }
+    .list1{
+        padding-top: 40px;  
+         word-spacing: 40px;
+     
+     }
+     .list1 a{
+         padding-left: 60px;
+         color:whitesmoke;
+         text-decoration: none;
+         font-size: 18px;
+     }
+}
+@media screen and (min-width:760px)
+{
+    .container{
+        grid-template-rows:1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+.main{
+    background-color: black;
+
+}
+body{
+    background-color: black;
+}
+.footer{
+    margin-top: 80px;
+    
+}
+.footer #con{
+    text-decoration: none;
+}
+.footer #faq{
+    text-decoration: none;
+    margin-right: 140px;
+}
+.footer #help{
+    text-decoration: none;
+    margin-right: 72px;
+}
+.footer #media{
+    text-decoration: none;
+    margin-right: 100px;
+}
+.footer #contact{
+    text-decoration: none;
+    margin-right: 100px;
+}
+.footer #privacy{
+    text-decoration: none;
+    margin-right: 100px;
+}
+.footer #netflix{
+    text-decoration: none;
+    margin-right: 100px;
+}
+.footer #a{
+    margin-bottom: 30px;
+ }
+.footer #b{
+    margin-bottom: 20px;
+}
+.footer a{
+    color: whitesmoke
+}
+.i1{
+    color:whitesmoke;
+    text-align: justify;    
+}
+.i2{
+    color:whitesmoke;
+    text-align: justify;    
+}
+.i3{
+    color:whitesmoke;
+    text-align: justify;    
+}
+.i4{
+    color:whitesmoke;
+    text-align: justify;    
+}
+.i5{
+    color:whitesmoke;
+    text-align: justify;    
+}
+.i6{
+    color:whitesmoke;
+    text-align: justify;    
+}
+.i7{
+    color:whitesmoke;
+    text-align: justify;    
+}
+.i8{
+    color:whitesmoke;
+    text-align: justify;    
+}
+.i9{
+    color:whitesmoke;
+    text-align: justify;    
+}
+.i10{
+    color:whitesmoke;
+    text-align: justify;    
+}
+.i11{
+    color:whitesmoke;
+    text-align: justify;    
+}
+.i12{
+    color:whitesmoke;
+    text-align: justify;    
+}
+.i13{
+    color:whitesmoke;
+    text-align: justify;    
+}
+.i14{
+    color:whitesmoke;
+    text-align: justify;    
+}
+.i15{
+    color:whitesmoke;
+    text-align: justify;    
+}
