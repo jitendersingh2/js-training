@@ -1,0 +1,106 @@
+body {
+    background-color: #c4a7a7;
+}
+.header {
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    /* z-index: 2; */
+}
+.header img{
+    height:60px;
+    float:left;
+    margin-left:10px;
+    margin-top:0px;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.header a{
+    font-size: 50px;
+    text-decoration: none;  
+    color: red;
+    word-spacing: 3px;
+    text-shadow: 6px 2px black;
+    font-family: "Comic Sans MS", cursive, "sans-serif";
+  
+}
+
+
+.container #data{
+    /* background-color: black; */
+    margin: 100px 50px 20px 150px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto auto auto auto ;   
+}
+
+@media only screen and (max-width: 500px) {
+    .container #data{
+        display: inline-grid;
+        grid-template-columns: auto;
+    }
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 760px) {
+    .container #data{
+        display: inline-grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+.footer-divider {
+    width: 100%;
+    height: 0px;
+    border-top: 6px solid grey;
+}
+
+
+/* Footer */
+.footer {
+    background-color: black;
+}
+.footer a{
+    color: #a6a6a6;
+    text-decoration: none;  
+    font-size:20px;
+}
+.footer .item1 {
+     display:inline-block; 
+     margin-left:70px;
+     margin-top: 30px;
+     margin-bottom: 30px;
+}
+.footer .item2 {
+    margin-left:70px;
+    margin-bottom: 10px;
+}
+.item2 #faq {
+    margin-right: 100px;
+}
+.item2 #terms {
+    margin-left: 170px;
+}
+.footer .item3 {
+    margin-left:70px;
+    margin-bottom: 10px;
+}
+.item3 #contact {
+    margin-right: 100px;
+}
+.item3 #jobs {
+    margin-left: 120px;
+}
+.footer .item4 {
+    margin-left:70px;
+    margin-bottom: 70px;
+}
+.item4 #notice {
+    margin-right: 100px;
+}
+.item4 #privacy {
+    margin-left: 100px;
+}
+
